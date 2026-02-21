@@ -89,7 +89,7 @@ static void delay2_ms(uint32_t ms) {
 }
 
 
-int32_t main(void) {
+int main(void) {
 	/* Defat after reset: HSI at 64 MHz */
 	systick_init(64000000);
 	gpio_init();
